@@ -44,7 +44,7 @@ public class RunHomeAppliance {
         makeThemWorkAndShowPowerConsumption(homeAppliances);
         showThingsWithPowerLessOrEqualThanParam(homeAppliances, powerLessOrEqual);
         //Lets sort home appliances by power consumption
-        SortArrayList.SortByPowerConsumption(homeAppliances);
+        SortArrayList.sortByPowerConsumption(homeAppliances);
     }
 
     private void createArrayOfHomeAppliance(List<HomeAppliances> homeAppliances) {

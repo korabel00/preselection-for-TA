@@ -15,7 +15,7 @@ public class SortArrayList {
         }
     };
 
-    public static void SortByPowerConsumption(List<HomeAppliances> arrayList) {
+    public static void sortByPowerConsumption(List<HomeAppliances> arrayList) {
 
         arrayList.sort(SortArrayList.POWER);
         output(arrayList);
