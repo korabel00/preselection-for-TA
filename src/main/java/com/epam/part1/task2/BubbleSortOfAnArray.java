@@ -7,7 +7,6 @@
 
 package com.epam.part1.task2;
 
-
 public class BubbleSortOfAnArray {
 
     public static void main(String[] args) {
@@ -39,8 +38,7 @@ public class BubbleSortOfAnArray {
     }
 
     private static void output(String[] array) {
-        //And output the result with class names
-        System.out.println("Sorted list of strings by their lenght (ascending):");
+        System.out.println("Sorted list of strings by their length (ascending):");
         for (String string : array) {
             System.out.println(string);
         }
