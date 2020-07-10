@@ -5,7 +5,7 @@
  *
  */
 
-package com.epam.part1.task2;
+package com.epam.part1.task2_bubblesort;
 
 public class BubbleSortOfAnArray {
 

@@ -6,7 +6,7 @@
  * консоль.
  */
 
-package com.epam.part1.task1;
+package com.epam.part1.task1_calc;
 
 import java.util.Scanner;
 

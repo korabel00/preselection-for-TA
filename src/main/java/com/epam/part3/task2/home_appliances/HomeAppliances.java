@@ -1,6 +1,6 @@
-package com.epam.part2.task1.home_appliances;
+package com.epam.part3.task2.home_appliances;
 
-import com.epam.part2.task1.utils.Brand;
+import com.epam.part3.task2.utils.Brand;
 
 public abstract class HomeAppliances {
 

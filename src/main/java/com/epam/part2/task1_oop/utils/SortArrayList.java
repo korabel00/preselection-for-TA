@@ -1,6 +1,6 @@
-package com.epam.part2.task1.utils;
+package com.epam.part2.task1_oop.utils;
 
-import com.epam.part2.task1.home_appliances.HomeAppliances;
+import com.epam.part2.task1_oop.home_appliances.HomeAppliances;
 
 import java.util.Comparator;
 import java.util.List;

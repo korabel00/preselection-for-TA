@@ -1,4 +1,4 @@
-package com.epam.part2.task1.utils;
+package com.epam.part2.task1_oop.utils;
 
 public enum Brand {
 
