@@ -1,6 +1,6 @@
-package com.epam.part3.task2.home_appliances;
+package com.epam.part3.task2_IOstreams.home_appliances;
 
-import com.epam.part3.task2.utils.Brand;
+import com.epam.part3.task2_IOstreams.utils.Brand;
 
 public class WashingMachine extends HomeAppliances {
 

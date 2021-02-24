@@ -1,4 +1,4 @@
-package com.epam.part3.task1.home_appliances;
+package com.epam.part3.task2_IOstreams.home_appliances;
 
 public interface Connectible {
 

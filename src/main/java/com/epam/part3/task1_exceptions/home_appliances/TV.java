@@ -1,10 +1,10 @@
 
-package com.epam.part3.task1.home_appliances;
+package com.epam.part3.task1_exceptions.home_appliances;
 
 
-import com.epam.part3.task1.exceptions.checked.ApplianceIsOffException;
-import com.epam.part3.task1.exceptions.checked.WrongScreenSizeException;
-import com.epam.part3.task1.utils.Brand;
+import com.epam.part3.task1_exceptions.exceptions.checked.ApplianceIsOffException;
+import com.epam.part3.task1_exceptions.exceptions.checked.WrongScreenSizeException;
+import com.epam.part3.task1_exceptions.utils.Brand;
 
 public class TV extends HomeAppliances implements Connectible {
 

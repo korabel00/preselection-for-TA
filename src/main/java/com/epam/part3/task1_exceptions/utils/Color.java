@@ -1,4 +1,4 @@
-package com.epam.part3.task1.utils;
+package com.epam.part3.task1_exceptions.utils;
 
 public enum Color {
 

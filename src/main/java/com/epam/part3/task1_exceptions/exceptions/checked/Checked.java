@@ -1,4 +1,4 @@
-package com.epam.part3.task1.exceptions.checked;
+package com.epam.part3.task1_exceptions.exceptions.checked;
 
 import java.io.IOException;
 

@@ -5,14 +5,14 @@
  * выбранной в предыдущем домашнем задании.
  */
 
-package com.epam.part3.task1;
+package com.epam.part3.task1_exceptions;
 
-import com.epam.part3.task1.exceptions.checked.BadCompareException;
-import com.epam.part3.task1.exceptions.checked.WrongScreenSizeException;
-import com.epam.part3.task1.home_appliances.*;
-import com.epam.part3.task1.utils.Brand;
-import com.epam.part3.task1.utils.Color;
-import com.epam.part3.task1.utils.SortArray;
+import com.epam.part3.task1_exceptions.exceptions.checked.BadCompareException;
+import com.epam.part3.task1_exceptions.exceptions.checked.WrongScreenSizeException;
+import com.epam.part3.task1_exceptions.home_appliances.*;
+import com.epam.part3.task1_exceptions.utils.Brand;
+import com.epam.part3.task1_exceptions.utils.Color;
+import com.epam.part3.task1_exceptions.utils.SortArray;
 
 public class RunHomeAppliance {
 

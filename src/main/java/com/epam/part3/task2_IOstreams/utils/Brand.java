@@ -1,4 +1,4 @@
-package com.epam.part3.task1.utils;
+package com.epam.part3.task2_IOstreams.utils;
 
 public enum Brand {
 

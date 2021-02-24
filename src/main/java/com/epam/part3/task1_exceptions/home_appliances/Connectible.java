@@ -1,4 +1,4 @@
-package com.epam.part3.task2.home_appliances;
+package com.epam.part3.task1_exceptions.home_appliances;
 
 public interface Connectible {
 

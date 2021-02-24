@@ -1,8 +1,8 @@
-package com.epam.part3.task1.home_appliances;
+package com.epam.part3.task1_exceptions.home_appliances;
 
-import com.epam.part3.task1.exceptions.checked.ZeroPowerException;
-import com.epam.part3.task1.utils.Brand;
-import com.epam.part3.task1.utils.Color;
+import com.epam.part3.task1_exceptions.exceptions.checked.ZeroPowerException;
+import com.epam.part3.task1_exceptions.utils.Brand;
+import com.epam.part3.task1_exceptions.utils.Color;
 
 public abstract class HomeAppliances {
 

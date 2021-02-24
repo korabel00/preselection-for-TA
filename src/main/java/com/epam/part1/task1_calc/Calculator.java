@@ -27,7 +27,7 @@ public class Calculator {
 
         while (true) {
             getUserNumbersAndOperation();
-            if ("Q".equals(operation.toUpperCase())) {
+            if ("Q".equalsIgnoreCase(operation)) {
                 break;
             }
             doMath();
@@ -42,10 +42,12 @@ public class Calculator {
         System.out.println("Please, enter two numbers:");
         numberOne = scanner.nextInt();
         numberTwo = scanner.nextInt();
+
         System.out.println("Please, enter an arithmetic operation (+, -, * , /) or enter \"Q\" " +
                 "if you don't want to continue:");
         scanner.nextLine();
         operation = scanner.nextLine();
+
     }
 
     //Choice of a method depends on operation

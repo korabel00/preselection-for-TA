@@ -17,11 +17,11 @@
  * прибор в квартире, соответствующий заданному диапазону параметров.
  */
 
-package com.epam.part3.task2;
+package com.epam.part3.task2_IOstreams;
 
-import com.epam.part3.task2.home_appliances.*;
-import com.epam.part3.task2.utils.Brand;
-import com.epam.part3.task2.utils.SortArrayList;
+import com.epam.part3.task2_IOstreams.home_appliances.*;
+import com.epam.part3.task2_IOstreams.utils.Brand;
+import com.epam.part3.task2_IOstreams.utils.SortArrayList;
 
 import java.util.ArrayList;
 import java.util.List;

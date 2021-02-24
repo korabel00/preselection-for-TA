@@ -1,6 +1,6 @@
-package com.epam.part3.task1.exceptions.checked;
+package com.epam.part3.task1_exceptions.exceptions.checked;
 
-import com.epam.part3.task1.utils.Color;
+import com.epam.part3.task1_exceptions.utils.Color;
 
 final public class BadCompareException extends Checked {
 

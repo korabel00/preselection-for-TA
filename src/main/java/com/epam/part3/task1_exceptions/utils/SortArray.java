@@ -1,13 +1,14 @@
-package com.epam.part3.task2.utils;
+package com.epam.part3.task1_exceptions.utils;
 
-import com.epam.part3.task2.home_appliances.HomeAppliances;
+import com.epam.part3.task1_exceptions.home_appliances.HomeAppliances;
 
+import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 
-public class SortArrayList {
+public class SortArray {
 
-    public static Comparator<HomeAppliances> POWER = new Comparator<>() {
+
+    public static Comparator<HomeAppliances> POWER = new Comparator<HomeAppliances>() {
 
         @Override
         public int compare(HomeAppliances ha1, HomeAppliances ha2) {
@@ -15,17 +16,18 @@ public class SortArrayList {
         }
     };
 
-    public static void sortByPowerConsumption(List<HomeAppliances> arrayList) {
+    public static void sortByPowerConsumption(HomeAppliances[] array) {
 
-        arrayList.sort(SortArrayList.POWER);
-        output(arrayList);
+        Arrays.sort(array, SortArray.POWER);
+        output(array);
     }
 
-    private static void output(List<HomeAppliances> arrayList) {
+    private static void output(HomeAppliances[] arrayList) {
         //And output the result with class names
         System.out.println("Sorted list of home appliances by power consumption (ascending):");
         for (HomeAppliances thing : arrayList) {
             System.out.println(thing.getClass().getSimpleName());
         }
     }
+
 }

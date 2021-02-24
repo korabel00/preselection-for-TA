@@ -3,13 +3,13 @@ package com.epam.part2.task2_collections_speed;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class CollectonsSpeed {
+public class CollectionsSpeed {
 
     public static void main(String[] args) {
 
         final int ITERATIONS = 10000;
 
-        CollectonsSpeed collectonsSpeed = new CollectonsSpeed();
+        CollectionsSpeed collectionsSpeed = new CollectionsSpeed();
 
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
@@ -19,30 +19,30 @@ public class CollectonsSpeed {
         Map<Integer, Integer> treeMap = new TreeMap<>();
 
         System.out.println("------------------------Add---------------------------------------");
-        collectonsSpeed.addToCollection(ITERATIONS, arrayList);
-        collectonsSpeed.addToCollection(ITERATIONS, linkedList);
-        collectonsSpeed.addToCollection(ITERATIONS, hashSet);
-        collectonsSpeed.addToCollection(ITERATIONS, treeSet);
-        collectonsSpeed.addToCollection(ITERATIONS, hashMap);
-        collectonsSpeed.addToCollection(ITERATIONS, treeMap);
+        collectionsSpeed.addToCollection(ITERATIONS, arrayList);
+        collectionsSpeed.addToCollection(ITERATIONS, linkedList);
+        collectionsSpeed.addToCollection(ITERATIONS, hashSet);
+        collectionsSpeed.addToCollection(ITERATIONS, treeSet);
+        collectionsSpeed.addToCollection(ITERATIONS, hashMap);
+        collectionsSpeed.addToCollection(ITERATIONS, treeMap);
 
         System.out.println("------------------------Search---------------------------------------");
         int indexToSearch = ThreadLocalRandom.current().nextInt(1, ITERATIONS + 1);
-        collectonsSpeed.searchInCollection(arrayList, indexToSearch);
-        collectonsSpeed.searchInCollection(linkedList, indexToSearch);
-        collectonsSpeed.searchInCollection(hashSet, indexToSearch);
-        collectonsSpeed.searchInCollection(treeSet, indexToSearch);
-        collectonsSpeed.searchInCollection(hashMap, indexToSearch);
-        collectonsSpeed.searchInCollection(treeMap, indexToSearch);
+        collectionsSpeed.searchInCollection(arrayList, indexToSearch);
+        collectionsSpeed.searchInCollection(linkedList, indexToSearch);
+        collectionsSpeed.searchInCollection(hashSet, indexToSearch);
+        collectionsSpeed.searchInCollection(treeSet, indexToSearch);
+        collectionsSpeed.searchInCollection(hashMap, indexToSearch);
+        collectionsSpeed.searchInCollection(treeMap, indexToSearch);
 
         System.out.println("------------------------Delete---------------------------------------");
         int indexToDelete = ThreadLocalRandom.current().nextInt(1, 10000 + 1);
-        collectonsSpeed.deleteInCollection(arrayList, indexToDelete);
-        collectonsSpeed.deleteInCollection(linkedList, indexToDelete);
-        collectonsSpeed.deleteInCollection(hashSet, indexToDelete);
-        collectonsSpeed.deleteInCollection(treeSet, indexToDelete);
-        collectonsSpeed.deleteInCollection(hashMap, indexToDelete);
-        collectonsSpeed.deleteInCollection(treeMap, indexToDelete);
+        collectionsSpeed.deleteInCollection(arrayList, indexToDelete);
+        collectionsSpeed.deleteInCollection(linkedList, indexToDelete);
+        collectionsSpeed.deleteInCollection(hashSet, indexToDelete);
+        collectionsSpeed.deleteInCollection(treeSet, indexToDelete);
+        collectionsSpeed.deleteInCollection(hashMap, indexToDelete);
+        collectionsSpeed.deleteInCollection(treeMap, indexToDelete);
     }
 
 
