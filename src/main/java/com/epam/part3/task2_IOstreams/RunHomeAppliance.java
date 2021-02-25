@@ -21,7 +21,6 @@ package com.epam.part3.task2_IOstreams;
 
 import com.epam.part3.task2_IOstreams.home_appliances.*;
 import com.epam.part3.task2_IOstreams.utils.Brand;
-import com.epam.part3.task2_IOstreams.utils.SortArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +43,7 @@ public class RunHomeAppliance {
         makeThemWorkAndShowPowerConsumption(homeAppliances);
         showThingsWithPowerLessOrEqualThanParam(homeAppliances, powerLessOrEqual);
         //Lets sort home appliances by power consumption
-        SortArrayList.sortByPowerConsumption(homeAppliances);
+//        SortArrayList.sortByPowerConsumption(homeAppliances);
     }
 
     private void createArrayOfHomeAppliance(List<HomeAppliances> homeAppliances) {
