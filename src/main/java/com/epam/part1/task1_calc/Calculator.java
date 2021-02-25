@@ -60,6 +60,7 @@ public class Calculator {
             case "-":
                 doSubtraction();
                 break;
+
             case "*":
                 doMultiplication();
                 break;
